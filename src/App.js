@@ -6,7 +6,7 @@ import Detail from "./pages/Detail.js";
 function App() {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home/>} />
             <Route path="/detail/:id" element={<Detail/>} />
         </Routes>
     );
