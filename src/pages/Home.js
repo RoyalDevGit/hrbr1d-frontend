@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
       "& .MuiListItem-root": {
         "&:hover": {
           color: "blue",
-          cursor: "hand"
+          cursor: "pointer"
         },
         "&.MuiListItem-divider": {
           borderBottom: "2px solid rgba(0,0,0,0.1)"

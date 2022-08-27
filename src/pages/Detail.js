@@ -36,7 +36,7 @@ const Individual = () => {
       )}
       {!downFetching && (
         <>
-          <Typography variant="h3" style={{textAlign:"center"}}>Post Details</Typography>
+          <Typography variant="h3" style={ {textAlign:"center"} }>Post Details</Typography>
           <TableContainer>
             <Table sx={{ minWidth: 650 }} aria-label="simple table">
               <TableHead>
