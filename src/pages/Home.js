@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme) => ({
       marginTop: 12,
       "& .MuiListItem-root": {
         "&:hover": {
-          color: "orange"
+          color: "blue",
+          cursor: "hand"
         },
         "&.MuiListItem-divider": {
           borderBottom: "2px solid rgba(0,0,0,0.1)"
